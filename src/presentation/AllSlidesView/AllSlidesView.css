@@ -1,0 +1,16 @@
+.all-slides-view {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .slide-thumbnail {
+    border: 1px solid #ccc;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  
+  .slide-thumbnail.active {
+    opacity: 1;
+  }

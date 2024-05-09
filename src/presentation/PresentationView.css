@@ -1,0 +1,10 @@
+.presentation-view {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+  }
+  
+  .main-slide {
+    flex: 1;
+    padding: 1rem;
+  }
